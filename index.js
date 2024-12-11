@@ -152,7 +152,7 @@ function whereIAm() {
 
             L.marker(e.latlng, {
                 icon: orangeIcon
-            }).addTo(map).bindPopup("You are no further than " + radius + " meters from this point").openPopup();
+            }).addTo(map).bindPopup("No está a más de " + radius + " metros de este punto").openPopup();
 
 
             whereIamCount = whereIamCount + 1;
